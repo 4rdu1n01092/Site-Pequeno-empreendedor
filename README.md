@@ -10,7 +10,7 @@ O foco do projeto é oferecer uma plataforma de fácil compreensão e acesso, in
 ## 📖 Sobre o Projeto
 - Permite que crianças do colégio publiquem seus itens à venda.  
 - Funciona como um **catálogo virtual de produtos**.  
-- Ao selecionar um item, o cliente é redirecionado para o **WhatsApp do vendedor**.  
+- Ao selecionar um item, o cliente é redirecionado para o **WhatsApp**.  
 - Interface simples e intuitiva, pensada para **facilidade de uso**.  
 - Este projeto utiliza a licença **MIT**. ✅
 
