@@ -1,8 +1,5 @@
 # 🛍️ Catálogo Escolar de Produtos
 
-Um site de exposição de produtos para que as crianças do colégio possam publicar seus itens, criando um catálogo de venda.  
-O cliente seleciona o produto e é direcionado para o **WhatsApp** para contato direto.  
-
 O foco do projeto é oferecer uma plataforma de fácil compreensão e acesso, incentivando a participação e o empreendedorismo infantil.
 
 ---
