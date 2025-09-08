@@ -1,4 +1,4 @@
-#Botão_empresa_1 { display: block;
+#Botão_empresas { display: block;
   width: 250px;
   height: 50px;
   line-height: 50px;
@@ -12,12 +12,12 @@
   border: 3px solid #333;
   transition: all .35s;
 }
-#Botão_empresa_1:hover { background: #fff;
+#Botão_empresas:hover { background: #fff;
   color: #333;
   border: 3px solid #333;
 }
     .container-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Cria duas colunas de largura igual */
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
 }
 
