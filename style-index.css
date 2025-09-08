@@ -16,5 +16,8 @@
   color: #333;
   border: 3px solid #333;
 }
-    
+    .container-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Cria duas colunas de largura igual */
+}
 
