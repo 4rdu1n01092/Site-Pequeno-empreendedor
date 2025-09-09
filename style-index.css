@@ -41,3 +41,10 @@ html, body {
   background-color: #004f86;
   text-align: center;
 }
+
+
+#tp {
+  color: white;
+  font-size: 60px;
+  font-family: 'Times New Roman', Times, serif;
+}
