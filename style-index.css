@@ -48,3 +48,9 @@ html, body {
   font-size: 60px;
   font-family: 'Times New Roman', Times, serif;
 }
+
+#hi {
+  color: white;
+  font-size: 25px;
+  font-family: 'Courier New', Times, serif;
+}
