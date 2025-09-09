@@ -54,3 +54,11 @@ html, body {
   font-size: 25px;
   font-family: 'Courier New', Times, serif;
 }
+
+h4 { 
+  color:#fff
+}
+
+footer {
+  color: #fff;
+}
