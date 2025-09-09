@@ -18,7 +18,7 @@
   height: 40px;
   font-weight: bold;
   text-decoration: none;
-  background: lab(15.21% 40.78 -31.13);
+  background: lab(36.26% 68.48 -53.47);
   text-align: center;
   color: #fff;
   text-transform: uppercase;
@@ -30,7 +30,7 @@
 
 .botao-empresas:hover {
   background: #004f86;
-  color: lab(15.21% 40.78 -31.13);;
+  color: lab(36.26% 68.48 -53.47);;
   text-align: center;
 }
 
