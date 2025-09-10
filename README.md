@@ -1,4 +1,4 @@
-# 🛍️ Catálogo Escolar de Produtos
+# 🛍️ Catálogo de Produtos Pequeno Empreendedor
 
 O foco do projeto é oferecer uma plataforma de fácil compreensão e acesso, incentivando a participação e o empreendedorismo infantil.
 
