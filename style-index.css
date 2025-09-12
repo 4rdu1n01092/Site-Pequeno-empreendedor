@@ -18,19 +18,19 @@
   height: 40px;
   font-weight: bold;
   text-decoration: none;
-  background: lab(36.26% 68.48 -53.47);
+  background: lab(38.83% 78.18 -84.9);
   text-align: center;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 1px;
-  border: 3px solid lab(36.26% 68.48 -53.47);
+  border: 3px solid lab(38.83% 78.18 -84.9);
   transition: all .35s;
   cursor: pointer;
 }
 
 .botao-empresas:hover {
-  background: #004f86;
-  color: lab(36.26% 68.48 -53.47);;
+  background: lab(38.83% 78.18 -84.9)6;
+  color: lab(38.83% 78.18 -84.9);
   text-align: center;
 }
 
@@ -56,9 +56,15 @@ html, body {
 }
 
 h4 { 
-  color:#fff
+  color:#000000
 }
 
 footer {
   color: #fff;
+}
+
+.Empresa {
+  border:solid 8px rgb(48, 148, 241);
+  background:#fff;
+border-radius: 30px;
 }

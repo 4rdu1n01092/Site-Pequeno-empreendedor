@@ -29,5 +29,7 @@ html, body {
   flex-direction: column; /* coloca os itens em coluna */
   align-items: center;    /* centraliza horizontalmente */
   gap: 10px;              /* espaço entre imagem e botão */
+  border:solid 8px rgb(48, 148, 241);
+  background:#fff;
+  border-radius: 30px;
 }
-
