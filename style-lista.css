@@ -33,3 +33,24 @@ html, body {
   background:#fff;
   border-radius: 30px;
 }
+.comprar {
+  width: 155px;
+  height: 40px;
+  font-weight: bold;
+  text-decoration: none;
+  background: lab(38.83% 78.18 -84.9);
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 3px solid lab(38.83% 78.18 -84.9);
+  transition: all .35s;
+  cursor: pointer;
+}
+
+.comprar:hover {
+  background: lab(38.83% 78.18 -84.9)6;
+  color: lab(38.83% 78.18 -84.9);
+  text-align: center;
+}
+
