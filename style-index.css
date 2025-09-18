@@ -81,10 +81,11 @@ list-style: none;
 display: flex;
 flex-direction: row;
 gap: 10px;
- background-color: #8c10a5;
- border-radius: 7px;
-  padding: 4px 10px;
-  margin-top: 15px;
+background-color: #8c10a5;
+border-radius: 7px;
+padding: 4px 10px;
+margin-top: 15px;
+background-position: center;
 }
 #menu a {
   color: white;
