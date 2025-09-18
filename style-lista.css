@@ -72,8 +72,10 @@ list-style: none;
 display: flex;
 flex-direction: row;
 gap: 30px;
-padding: 20px;
-margin: 0;
+ background-color: #8c10a5;
+ border-radius: 10px;
+  padding: 12px 10px;
+  margin-top: 20px;
 }
 #menu a {
   color: white;
@@ -88,3 +90,4 @@ margin: 0;
 footer {
   color: #fff;
 }
+
