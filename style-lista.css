@@ -84,3 +84,7 @@ margin: 0;
 #menu a:hover {
   text-decoration: underline;
 }
+
+footer {
+  color: #fff;
+}
