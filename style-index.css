@@ -105,6 +105,15 @@ background-position: center;
 
 footer {
   color: #fff;
-  text-align: center;
   justify-content: center;
+  align-items: center;
+  text-align: center;
 }
+
+
+
+ .container-do-rodapé {
+      display: flex;
+      justify-content: center; /* Centraliza horizontalmente */
+      align-items: center;   /* Centraliza verticalmente */
+    }
