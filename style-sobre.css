@@ -11,7 +11,7 @@ footer {
 }
 
 h2 {
-    font-family: 'Pacifico', cursive; 
+     font-family: 'Times New Roman', Times, serif;
     font-size: 48px; 
     color: #4A90E2; 
     text-shadow: 2px 2px 5px rgba(0,0,0,0.2); 
@@ -22,7 +22,7 @@ h2 {
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 .spark-title {
-    font-family: 'Pacifico', cursive;
+     font-family: 'Times New Roman', Times, serif;
     font-size: 60px;
     color: #cc00ff; 
     position: relative;
@@ -50,7 +50,7 @@ h2 {
 
 
 .omg {
-    font-family: 'Pacifico', cursive;
+     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     color: #cc00ff; 
     position: relative;
@@ -72,4 +72,8 @@ h2 {
     0% { transform: translateX(-50%) translateY(0) scale(1); opacity: 1; }
     50% { transform: translateX(-50%) translateY(-10px) scale(1.2); opacity: 0.8; }
     100% { transform: translateX(-50%) translateY(-20px) scale(0.8); opacity: 0; }
+}
+
+.texto {
+    color: white;
 }
