@@ -18,19 +18,19 @@
   height: 40px;
   font-weight: bold;
   text-decoration: none;
-  background: lab(38.83% 78.18 -84.9);
+  background: #3595f0;;
   text-align: center;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 1px;
-  border: 3px solid lab(38.83% 78.18 -84.9);
+  border: 3px solid lab(46.81% 26 -72.07);
   transition: all .35s;
   cursor: pointer;
 }
 
 .botao-empresas:hover {
-  background: lab(38.83% 78.18 -84.9)6;
-  color: lab(38.83% 78.18 -84.9);
+  background: #3595f0;;
+  color: #3595f0;;
   text-align: center;
 }
 
@@ -38,7 +38,7 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #004f86;
+  background-color: #7723ff;
   text-align: center;
 }
 
@@ -64,7 +64,7 @@ footer {
 }
 
 .Empresa {
-  border:solid 8px rgb(48, 148, 241);
+  border:solid 8px #3595f0;
   background:#fff;
 border-radius: 30px;
 }
@@ -81,7 +81,7 @@ list-style: none;
 display: flex;
 flex-direction: row;
 gap: 10px;
-background-color: #8c10a5;
+background-color: #3595f0;
 border-radius: 7px;
 padding: 4px 10px;
 margin-top: 15px;
