@@ -1,3 +1,25 @@
+#menu {
+list-style: none;
+display: flex;
+flex-direction: row;
+gap: 10px;
+border-radius: 7px;
+padding: 4px 10px;
+margin-top: 15px;
+background-position: center;
+}
+#menu a {
+  color: white;
+  text-decoration: none; 
+  font-weight: bold;
+  align-items: center;
+}
+
+#menu a:hover {
+  text-decoration: underline;
+    align-items: center;
+}
+
 /*
   ======================================================
   CONFIGURAÇÕES DO TEMA DEDSEC - REBELDE (BORDAS REMOVIDAS)
@@ -6,10 +28,10 @@
 
 /* Variáveis para cores neon para fácil alteração */
 :root {
-    --color-primary: #a331ff;   
-    --color-secondary: #00ff9d; 
-    --glow-primary: 0 0 10px #a331ff, 0 0 25px #a331ff;
-    --glow-secondary: 0 0 10px #00ff9d, 0 0 25px #00ff9d;
+    --color-primary: #0026ff;   
+    --color-secondary: #00f7ff; 
+    --glow-primary: 0 0 10px #0026ff, 0 0 25px #0026ff;
+    --glow-secondary: 0 0 10px #00f7ff, 0 0 25px #00f7ff;
     --background-dark: #000000; 
 }
 
