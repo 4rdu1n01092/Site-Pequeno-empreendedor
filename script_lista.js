@@ -28,7 +28,7 @@ function comprarProduto(botao) {
 
     //criar mensagem
     const numeroPedido = totalDeCliques;
-    const whatsinsa = "5549988183883";
+    const whatsinsa = "5549992022999";
     const mensagem = `O número do pedido é ${numeroPedido} e o produto é ${nomeProduto}`;
     const linkWhatsApp = `https://wa.me/${whatsinsa}?text=${encodeURIComponent(mensagem)}`;
 
