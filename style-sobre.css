@@ -19,8 +19,6 @@ background-position: center;
   text-decoration: underline;
     align-items: center;
 }
-
-
 /* Variáveis para cores neon para fácil alteração */
 :root {
     --color-primary: #0026ff;   
