@@ -92,3 +92,30 @@ footer {
   color: #fff;
 }
 
+.preçoA { 
+  position: absolute;
+  top: 800px;    
+  left: 290px;    
+  background-color: #ebebeb;
+  border-radius: 3px;
+  padding: 1px 10px;
+  margin-top: 15px;
+
+  
+  border: 2px solid #6f1bcf; 
+}
+
+.preçoB { 
+  
+  position: absolute;
+  top: 800px;    
+  left: 920px;    
+  background-color: #ebebeb;
+  border-radius: 3px;
+  padding: 1px 10px;
+  margin-top: 15px;
+
+  
+  border: 2px solid #6f1bcf; 
+
+}
