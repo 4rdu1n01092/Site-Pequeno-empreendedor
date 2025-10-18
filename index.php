@@ -29,7 +29,7 @@
             echo '<div class="Empresa">';
             echo '<h4><strong>' . htmlspecialchars($row["Nome"]) . '</strong></h4>';
             echo '<img src="' . htmlspecialchars($row["Caminho_imagem"] ?: "imagens/default.png") . '" width="155" height="155" alt="Logo da empresa">';
-            echo '<button class="botao-empresas" onclick="window.location.href = \'lista.php?empresa_id=' . $row["id"] . '\'">Acesse aqui os itens</button>';
+            echo '<button class="botao-empresas" onclick="window.location.href = \'lista.php?empresa_id=' . intval($row["id"]) . '\'">Acesse aqui os itens</button>';
             echo '</div>';
         }
     } else {
