@@ -1,3 +1,45 @@
+.criadores {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 4rem;
+}
+
+.criador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.foto-criador {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--color-secondary);
+  box-shadow: var(--glow-secondary);
+}
+
+.redes a {
+  margin: 0 5px;
+  font-size: 1.5rem;
+  color: var(--color-secondary);
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.redes a:hover {
+  color: var(--background-dark);
+  background-color: var(--color-secondary);
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: var(--glow-secondary);
+}
+
+
 #menu {
 list-style: none;
 display: flex;
