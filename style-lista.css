@@ -6,6 +6,11 @@ html, body {
   text-align: center;
 }
 
+#Produto {
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
 #Name {
   color: white;
   font-size: 60px;
