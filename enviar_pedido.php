@@ -28,7 +28,7 @@ if ($result && $result->num_rows > 0) {
 $stmt = $conn->prepare("INSERT INTO pedidos 
     (numero_pedido, empresa_id, produto, preco, cliente_nome, cliente_telefone, observacao, quantidade)
     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
-$stmt->bind_param("sisdssssi", $numero_pedido, $empresa_id, $produto, $preco, $cliente_nome, $cliente_telefone, $cliente_endereco, $observacao, $quantidade);
+$stmt->bind_param("sisdssssi", $numero_pedido, $empresa_id, $produto, $preco, $cliente_nome, $cliente_telefone, $observacao, $quantidade);
 $stmt->execute();
 $stmt->close();
 
