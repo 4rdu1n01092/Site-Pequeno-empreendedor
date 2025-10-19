@@ -1,7 +1,24 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #004f86;
+  text-align: center;
+}
+
+#Name {
+  color: white;
+  font-size: 60px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.texto {
+  color: white;
+}
 
 .container-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 30px;
   padding: 20px;
   text-align: center;
@@ -9,85 +26,47 @@
 
 .container-grid > div {
   display: flex;
-  flex-direction: column; /* coloca os itens em coluna */
-  align-items: center;    /* centraliza horizontalmente */
-  gap: 10px;              /* espaço entre imagem e botão */
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border: solid 8px rgb(48, 148, 241);
+  background: #fff;
+  border-radius: 30px;
+  padding: 15px;
 }
 
-.botao-empresas {
+.comprar {
   width: 155px;
   height: 40px;
   font-weight: bold;
-  text-decoration: none;
-  background: #3595f0;;
-  text-align: center;
+  background-color: #3079f1;
   color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border: 3px solid lab(46.81% 26 -72.07);
-  transition: all .35s;
+  border: none;
+  border-radius: 10px;
   cursor: pointer;
+  transition: all 0.3s;
 }
 
-.botao-empresas:hover {
-  background: #3595f0;;
-  color: #3595f0;;
-  text-align: center;
-}
-
-html, body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: #7723ff;
-  text-align: center;
-}
-
-
-#tp {
-  color: white;
-  font-size: 60px;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-#hi {
-  color: white;
-  font-size: 25px;
-  font-family: 'Courier New', Times, serif;
-}
-
-h4 { 
-  color:#000000
-}
-
-footer {
-  color: #fff;
-}
-
-.Empresa {
-  border:solid 8px #3595f0;
-  background:#fff;
-border-radius: 30px;
+.comprar:hover {
+  background-color: #1f5bb5;
 }
 
 nav {
   display: flex;
   justify-content: center;
   margin: 10px;
-  
 }
 
 #menu {
-list-style: none;
-display: flex;
-flex-direction: row;
-gap: 10px;
-background-color: #3595f0;
-border-radius: 7px;
-padding: 4px 10px;
-margin-top: 15px;
-background-position: center;
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  background-color: #8c10a5;
+  border-radius: 10px;
+  padding: 12px 10px;
+  margin-top: 20px;
 }
+
 #menu a {
   color: white;
   text-decoration: none; 
@@ -98,24 +77,112 @@ background-position: center;
   text-decoration: underline;
 }
 
-.hero-section {
-    height: 300px;
-    background-image: url(back\ to\ school.png);
-    background-position: center;
-}
-
 footer {
   font-family: 'VT323';
   color: #fff;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  margin-top: 30px;
 }
 
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999; /* garante que fique acima de tudo */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8); /* escurece o fundo */
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+/* Conteúdo do Modal */
+.modal-content {
+  background-color: #f0f8ff;
+  padding: 30px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 600px;
+  text-align: left;
+  position: relative;
+  box-shadow: 0 5px 30px rgba(0,0,0,0.3);
+  border: 3px solid #3079f1;
+  animation: fadeIn 0.3s ease-in-out;
+}
 
- .container-do-rodapé {
-      display: flex;
-      justify-content: center; /* Centraliza horizontalmente */
-      align-items: center;   /* Centraliza verticalmente */
-    }
+/* Animação de FadeIn */
+@keyframes fadeIn {
+  from {opacity: 0; transform: scale(0.95);}
+  to {opacity: 1; transform: scale(1);}
+}
+
+/* Título e Labels */
+.modal-content h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #004f86;
+}
+
+.modal-content label {
+  font-weight: bold;
+  color: #004f86;
+}
+
+/* Inputs e Textareas */
+.modal-content input, 
+.modal-content textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  border: 2px solid #3079f1;
+  font-size: 16px;
+  outline: none;
+}
+
+.modal-content input:focus, 
+.modal-content textarea:focus {
+  border-color: #8c10a5;
+  box-shadow: 0 0 5px #8c10a5;
+}
+
+/* Botão de Enviar */
+.modal-content button {
+  width: 100%;
+  padding: 12px;
+  background-color: #3079f1;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.modal-content button:hover {
+  background-color: #1f5bb5;
+}
+
+/* Botão Fechar */
+.fechar {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+  background-color: #3079f1;
+  padding: 4px 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.fechar:hover {
+  background-color: #1f5bb5;
+  transform: rotate(90deg);
+}

@@ -1,67 +1,4 @@
-.criadores {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 40px;
-  margin-bottom: 4rem;
-}
 
-.criador {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  text-align: center;
-}
-
-.foto-criador {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid var(--color-secondary);
-  box-shadow: var(--glow-secondary);
-}
-
-.redes a {
-  margin: 0 5px;
-  font-size: 1.5rem;
-  color: var(--color-secondary);
-  transition: all 0.2s ease-in-out;
-  text-decoration: none;
-}
-
-.redes a:hover {
-  color: var(--background-dark);
-  background-color: var(--color-secondary);
-  padding: 5px;
-  border-radius: 5px;
-  box-shadow: var(--glow-secondary);
-}
-
-
-#menu {
-list-style: none;
-display: flex;
-flex-direction: row;
-gap: 10px;
-border-radius: 7px;
-padding: 4px 10px;
-margin-top: 15px;
-background-position: center;
-}
-#menu a {
-  color: white;
-  text-decoration: none; 
-  font-weight: bold;
-  align-items: center;
-}
-
-#menu a:hover {
-  text-decoration: underline;
-    align-items: center;
-}
-/* Variáveis para cores neon para fácil alteração */
 :root {
     --color-primary: #0026ff;   
     --color-secondary: #00f7ff; 
@@ -92,13 +29,6 @@ html, body {
     to { opacity: 1; }
 }
 
-/*
-  ======================================================
-  TÍTULOS E EFEITO GLITCH
-  ======================================================
-*/
-
-/* Título Principal (h1) */
 h1 {
     font-family: 'Space Mono', monospace; 
     color: var(--color-primary); 
@@ -113,43 +43,23 @@ h1 {
     overflow: hidden; 
     display: inline-block;
     padding: 10px 20px;
-    /* MANTIDA: Borda neon no título para o efeito visual */
     border: 3px solid var(--color-secondary); 
 }
-
-/* Efeito Glitch e H2 (Mantidos) */
-/* ... (Keyframes e h2 permanecem iguais) ... */
-
-
-/*
-  ======================================================
-  TEXTO E LAYOUT (BORDAS REMOVIDAS)
-  ======================================================
-*/
 
 .texto { 
     font-family: 'VT323', monospace;
     color: #e0e0e0; 
-    
-    /* Alinhamento de texto à esquerda (visual de terminal limpo) */
     text-align: center; 
     
-    /* Espaçamentos grandes para garantir respiro */
     font-size: 1.8rem; 
     line-height: 1.7; 
     
     margin: 0.5rem auto 4rem auto; 
     
-    /* Padding horizontal grande. Reduzi um pouco já que a borda saiu. */
     padding: 0 30px; 
 
 }
 
-/*
-  ======================================================
-  INTERAÇÃO E RESPONSIVIDADE (Mantidos)
-  ======================================================
-*/
 a, button {
     font-family: 'VT323', monospace; 
     color: var(--color-secondary);
@@ -193,3 +103,71 @@ a:hover, button:hover {
             background-size: cover;
             background-position: center;
         }
+        
+        
+        
+        
+.criadores {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 4rem;
+}
+
+.criador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.foto-criador {
+  width: 120px;
+  height: 120px;
+  max-width: 120px;
+  max-height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--color-secondary);
+  box-shadow: var(--glow-secondary);
+}
+.redes a {
+  margin: 0 5px;
+  font-size: 1.5rem;
+  color: var(--color-secondary);
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.redes a:hover {
+  color: var(--background-dark);
+  background-color: var(--color-secondary);
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: var(--glow-secondary);
+}
+
+
+#menu {
+list-style: none;
+display: flex;
+flex-direction: row;
+gap: 10px;
+border-radius: 7px;
+padding: 4px 10px;
+margin-top: 15px;
+background-position: center;
+}
+#menu a {
+  color: white;
+  text-decoration: none; 
+  font-weight: bold;
+  align-items: center;
+}
+
+#menu a:hover {
+  text-decoration: underline;
+    align-items: center;
+}
