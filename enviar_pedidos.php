@@ -26,7 +26,7 @@ if ($result && $result->num_rows > 0) {
 
 // Inserir no banco
 $stmt = $conn->prepare("INSERT INTO pedidos 
-    (numero_pedido, empresa_id, produto, preco, cliente_nome, cliente_telefone, cliente_endereco, observacao, quantidade)
+    (numero_pedido, empresa_id, produto, preco, cliente_nome, cliente_telefone, observacao, quantidade)
     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
 $stmt->bind_param("sisdssssi", $numero_pedido, $empresa_id, $produto, $preco, $cliente_nome, $cliente_telefone, $cliente_endereco, $observacao, $quantidade);
 $stmt->execute();
