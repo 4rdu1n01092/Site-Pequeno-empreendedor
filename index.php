@@ -12,7 +12,7 @@
 <nav>
     <ul id="menu">
         <li><a href="index.php">Home</a></li>
-        <li><a href="">sobre.html</a></li>
+        <li><a href="sobre.html">sobre</a></li>
     </ul>
 </nav>
 
